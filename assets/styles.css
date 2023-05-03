@@ -157,3 +157,14 @@ h1, h2, h3, h4 {
     content: '••••';
     color: var(--bs-primary);
 }
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: white;
+  }
+
+  nav li {
+    display: inline-block;
+    margin-right: 5px;
+  }
